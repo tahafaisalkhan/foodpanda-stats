@@ -39,7 +39,7 @@ This will install the `axios` package, which is used for making HTTP requests.
 
 ### 3. Configure the Script
 
-You need to provide your Foodpanda API token in the script. Open `fetchOrders.js` and replace `JWT_Token` with your actual JWT token:
+You need to provide your Foodpanda API token in the script. Open `fetchOrders.js` and replace `JWT_Token` with your actual JWT token. To retrieve your JWT token from Chrome, first log in to the Foodpanda website. Then, press F12 to open Developer Tools and go to the Network tab. Refresh the page and look for any network requests (often labeled as "auth" or "token") that include your token. Click on the relevant request, navigate to the Headers section, and under the Request Headers, find the Authorization field. The JWT token will appear as Bearer <your_token>. Copy this token and use it in your script.
 
 ```javascript
 const headers = {
