@@ -1,6 +1,6 @@
 # Foodpanda Total Spent
 
-This project contains a script that fetches all orders from the Foodpanda API, handles pagination, and calculates the total money spent on non-declined orders. It uses `axios` to make HTTP requests to the Foodpanda API, processes the orders, and outputs the total number of orders and the total amount spent.
+This project contains a script that fetches all orders from the Foodpanda API, handles pagination, and calculates the total money spent on non-declined orders.
 
 ## Features
 
@@ -78,10 +78,3 @@ Error fetching orders: Request failed with status code 401
 
 Make sure that your API token is valid and that your request headers are correct.
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
